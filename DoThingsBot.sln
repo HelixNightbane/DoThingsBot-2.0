@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoThingsBot.Loader", "DoThingsBot\DoThingsBot.Loader\DoThingsBot.Loader.csproj", "{7269CA15-D435-4103-8859-860463BC9EC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoThingsBot", "DoThingsBot\DoThingsBot\DoThingsBot.csproj", "{60F9DE4D-BBAB-44E8-937E-AAF0CE1ED265}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7269CA15-D435-4103-8859-860463BC9EC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7269CA15-D435-4103-8859-860463BC9EC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7269CA15-D435-4103-8859-860463BC9EC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7269CA15-D435-4103-8859-860463BC9EC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60F9DE4D-BBAB-44E8-937E-AAF0CE1ED265}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60F9DE4D-BBAB-44E8-937E-AAF0CE1ED265}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60F9DE4D-BBAB-44E8-937E-AAF0CE1ED265}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60F9DE4D-BBAB-44E8-937E-AAF0CE1ED265}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {75BDB47D-D169-42FB-ADFA-A55CC83726F3}
+	EndGlobalSection
+EndGlobal
