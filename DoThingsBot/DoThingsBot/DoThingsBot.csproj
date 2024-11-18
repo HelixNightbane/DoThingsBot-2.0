@@ -15,9 +15,12 @@
   </PropertyGroup>
   <ItemGroup>
     <None Include="PluginCore.cs" />
-    <None Include="ExampleUI.cs" />
+    <None Include="UI.cs" />
+    <Content Include="README.md" />
     <Content Include="scripts\installer.nsi" />
     <Content Include="scripts\post-build.ps1" />
+    <Content Include="deps\Decal.Adapter.dll" />
+    <Content Include="deps\Decal.Interop.Core.dll" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Decal.Adapter">

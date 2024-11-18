@@ -15,8 +15,7 @@ namespace DoThingsBot
     public class PluginCore : PluginBase
     {
         private static string _assemblyDirectory = null;
-        private ExampleUI ui;
-
+        private UI ui;
         /// <summary>
         /// Assembly directory containing the plugin dll
         /// </summary>
@@ -57,7 +56,7 @@ namespace DoThingsBot
                 // this adds text to the chatbox. it's output is local only, other players do not see this.
                 CoreManager.Current.Actions.AddChatText($"This is my new decal plugin. Startup was called. DoThingsBot", 1);
 
-                ui = new ExampleUI();
+                ui = new UI();
             }
             catch (Exception ex)
             {
